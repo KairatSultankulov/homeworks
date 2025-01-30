@@ -11,7 +11,7 @@ def create_table(db_name, create_table_sql):
 
 
 db_name = '''hw.db'''
-sql_to_create_products_table = '''
+#sql_to_create_products_table = '''
 CREATE TABLE products (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     product_title VARCHAR(200) NOT NULL,
